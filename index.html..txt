@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acordes de Guitarra</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+        main {
+            padding: 2em;
+        }
+        .chord {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 1em;
+            padding: 1em;
+            background-color: white;
+        }
+        .chord img {
+            max-width: 100%;
+            height: auto;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Acordes de Guitarra</h1>
+    </header>
+    <main>
+        <section class="chord">
+            <h2>Acorde de Do Mayor (C)</h2>
+            <img src="ruta/a/tu/imagen_c.jpg" alt="Acorde de Do Mayor">
+            <p>Coloca tu dedo índice en el primer traste de la segunda cuerda. Coloca tu dedo medio en el segundo traste de la cuarta cuerda. Coloca tu dedo anular en el tercer traste de la quinta cuerda. Toca desde la quinta cuerda hacia abajo.</p>
+        </section>
+        <section class="chord">
+            <h2>Acorde de Re Mayor (D)</h2>
+            <img src="ruta/a/tu/imagen_d.jpg" alt="Acorde de Re Mayor">
+            <p>Coloca tu dedo índice en el segundo traste de la tercera cuerda. Coloca tu dedo medio en el segundo traste de la primera cuerda. Coloca tu dedo anular en el tercer traste de la segunda cuerda. Toca desde la cuarta cuerda hacia abajo.</p>
+        </section>
+        <section class="chord">
+            <h2>Acorde de Mi Mayor (E)</h2>
+            <img src="ruta/a/tu/imagen_e.jpg" alt="Acorde de Mi Mayor">
+            <p>Coloca tu dedo índice en el primer traste de la tercera cuerda. Coloca tu dedo medio en el segundo traste de la quinta cuerda. Coloca tu dedo anular en el segundo traste de la cuarta cuerda. Toca todas las cuerdas.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Adan Martin  Perez. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
